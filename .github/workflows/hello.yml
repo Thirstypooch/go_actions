@@ -1,0 +1,13 @@
+name: hello Thirsty
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Hello:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Hello Thirtsy Pooch
+        run: echo "What do you know Thirsty!"
